@@ -1,0 +1,52 @@
+.Counter {
+  font-family: serif;
+  text-align: center;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to right, red, pink);
+}
+h1 {
+  color: darkred;
+}
+
+.Todolist {
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+}
+input {
+  padding: 18px 30px;
+  margin: 10px 0px;
+  border: none;
+  border-radius: 5px;
+}
+input:focus {
+  outline: 2px solid red;
+}
+input::placeholder {
+  text-align: center;
+}
+.ListItem {
+  background: lightgrey;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.ListItem span {
+  padding: 10px;
+  font-size: 18px;
+}
+.ListItem button {
+  border: none;
+  padding: 10px 5px;
+  font-size: 18px;
+}
+.Notodo {
+  padding: 10px;
+  color: rgb(88, 16, 28);
+  font-size: 18px;
+}
